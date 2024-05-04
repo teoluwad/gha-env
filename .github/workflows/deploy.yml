@@ -13,7 +13,7 @@ jobs:
       MONGODB_USERNAME: test-admin
       MONGODB_PASSWORD: test-password
       PORT: 8080
-    # environment: testing
+    environment: testing
     runs-on: ubuntu-latest
     steps:
       - name: Get Code
